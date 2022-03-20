@@ -1,4 +1,4 @@
-## Artık YIl Hesaplama
+## Artık Yıl Hesaplama
 
 Artık Yıl Nedir?
 
