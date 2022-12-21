@@ -1,0 +1,14 @@
+[16, 21, 11, 8, 12, 22] 
+
+[16, 21] ve [11, 8, 12, 22]
+[16, 21] ikiye bölünür. [16] ve [21]
+[11, 8, 12, 22] ikiye bölünür. [11, 8] ve [12, 22]
+[11, 8] ikiye bölünür. [11] ve [8]
+[16], [21], [11] ve [8] alt listelerinin tümü basit bir şekilde sıralanmıştır, bu nedenle artık alt listeleri tekrar bir araya getirmeye başlayabiliriz.
+[8, 11]'i elde etmek için [11] ve [8]'i birleştiririz.
+[16] ve [21]'i birleştirerek [16, 21] elde ederiz.
+[8, 11] ve [12, 22]'yi birleştirerek [8, 11, 12, 22] elde ederiz.
+[16, 21] ve [8, 11, 12, 22]'yi birleştirerek [8, 11, 12, 16, 21, 22] elde ederiz.
+Ortaya çıkan sıralı liste [8, 11, 12, 16, 21, 22] şeklindedir.
+
+Big-O gösterimi O(nlog(n)) şeklindedir. 
